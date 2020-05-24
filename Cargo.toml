@@ -7,6 +7,7 @@ default-run = "dimmer"
 
 [dependencies]
 dotenv = "0.15.0"
+tiny_http = "0.7.0"
 
 [dependencies.philipshue]
 version = "0.3.2"
