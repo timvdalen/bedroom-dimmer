@@ -1,0 +1,7 @@
+[package]
+name = "bedroom-dimmer"
+version = "0.1.0"
+authors = ["Tim van Dalen <Tim@timvdalen.nl>"]
+edition = "2018"
+
+[dependencies]
