@@ -1,3 +1,9 @@
+use dotenv;
+use std::env;
+
 fn main() {
-	println!("Hello, world!");
+	dotenv::dotenv().ok();
+	let username = env::var("HUE_USERNAME").unwrap_or("host#user".to_string());
+
+	println!("Username: {}", username);
 }
