@@ -7,3 +7,7 @@ default-run = "dimmer"
 
 [dependencies]
 dotenv = "0.15.0"
+
+[dependencies.philipshue]
+version = "0.3.2"
+default-features = false
